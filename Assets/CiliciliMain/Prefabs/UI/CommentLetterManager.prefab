@@ -59,6 +59,7 @@ GameObject:
   - component: {fileID: 23872241236825858}
   - component: {fileID: 328564297911061780}
   - component: {fileID: 82005622748004476}
+  - component: {fileID: 114348400104849438}
   m_Layer: 0
   m_Name: VideoPlane
   m_TagString: Untagged
@@ -296,7 +297,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4723498931465328}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4321184751453432
 Transform:
@@ -335,7 +336,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4723498931465328}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4431533143740140
 Transform:
@@ -374,7 +375,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4723498931465328}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4641025105981914
 Transform:
@@ -417,9 +418,9 @@ Transform:
   - {fileID: 4122748736040992}
   - {fileID: 4321184751453432}
   - {fileID: 4933739188145278}
-  - {fileID: 4311152968947602}
   - {fileID: 4403948386448088}
   - {fileID: 4521177356038608}
+  - {fileID: 4311152968947602}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -995,6 +996,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_areaType: 1
+--- !u!114 &114348400104849438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1144821515801646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494945f9c6e644943ab1ee27dddaa758, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_videoPlayer: {fileID: 328564297911061780}
+  m_TimeLabel: {fileID: 0}
 --- !u!114 &114375840846780416
 MonoBehaviour:
   m_ObjectHideFlags: 1
