@@ -38,6 +38,12 @@ namespace Overture.CommentCensor
         }
     }
 
+    public enum Level
+    {
+        One=0,
+        Two=1
+    }
+
     public static class GlobalDefine
     {
 
@@ -59,15 +65,15 @@ namespace Overture.CommentCensor
 
         public static class PathDefines
         {
-            public const string XML_Path = "/StreamingAssets/XML/";
+            public const string XML_Path = "XML/";
             public const string TROOP_PREFAB = "Prefab/Units/";
             public const string UI_PREFAB = "Prefab/UI/";
         }
 
         public static class FileName
         {
-            public const string Comments = "Comments.XML";
-
+            public static string[] Comments=new string[]{"Comments1","Comments2"};
+            //public const string[] Comments = new string[2];//{"Comments1.XML","Comments2.XML"};
         }
     }
 }

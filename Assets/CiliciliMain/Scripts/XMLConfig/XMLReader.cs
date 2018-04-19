@@ -18,7 +18,7 @@ public static class XMLReader{
 //			} else {
 //				xDoc.Load (path);
 //			}
-			TextAsset commentsXML = Resources.Load<TextAsset> ("XML/Comments");
+			TextAsset commentsXML = Resources.Load<TextAsset> (path);
 			//Debug.Log (commentsXML.text);
 			xDoc.LoadXml (commentsXML.text);
 		XmlNamespaceManager xnm = new XmlNamespaceManager(xDoc.NameTable);

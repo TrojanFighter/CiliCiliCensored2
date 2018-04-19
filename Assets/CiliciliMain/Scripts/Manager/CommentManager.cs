@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 namespace Overture.CommentCensor
 {
@@ -9,12 +10,14 @@ namespace Overture.CommentCensor
 
     public class CommentManager : MonoBehaviourEX<CommentManager>
     {
+        public VideoPlayer m_videoPlayer;
         private Dictionary<int, Comment> m_CommentDictionary;
         private Dictionary<int, CommentUIPrefab> m_CommentUIDictionary;
         private int nextcommentID = 0;
         private Dictionary<float, int> m_CommentReferenceDictionary;
         public Transform CommentRoot;
         public CommentUIPrefab m_CommentUIPrefab;
+        public Level m_CurrentLevel;
 
         public override void Awake()
         {
@@ -27,9 +30,7 @@ namespace Overture.CommentCensor
             m_CommentDictionary = new Dictionary<int, Comment>();
             m_CommentReferenceDictionary = new Dictionary<float, int>();
             m_CommentUIDictionary = new Dictionary<int, CommentUIPrefab>();
-            m_CommentDictionary = XMLReader.ReadCommentsFile(Application.streamingAssetsPath +
-                                                             GlobalDefine.PathDefines.XML_Path +
-                                                             GlobalDefine.FileName.Comments);
+            m_CommentDictionary = XMLReader.ReadCommentsFile(GlobalDefine.PathDefines.XML_Path +GlobalDefine.FileName.Comments[(int)m_CurrentLevel]);
 
             foreach (KeyValuePair<int, Comment> comment in m_CommentDictionary)
             {
@@ -63,14 +64,7 @@ namespace Overture.CommentCensor
         public void AddComment(string commenttext, float commentvideoTime, DateTime commentdate, int linePosition = 0)
         {
             nextcommentID++;
-            m_CommentDictionary.Add(nextcommentID,
-                new Comment()
-                {
-                    commentText = commenttext,
-                    InVideoTime = commentvideoTime,
-                    date = commentdate,
-                    offset = linePosition
-                });
+            m_CommentDictionary.Add(nextcommentID,new Comment(){commentText = commenttext,InVideoTime = commentvideoTime,date = commentdate,offset = linePosition});
             m_CommentReferenceDictionary.Add(commentvideoTime, nextcommentID);
         }
 
@@ -102,7 +96,8 @@ namespace Overture.CommentCensor
         {
             foreach (float commentTime in m_CommentReferenceDictionary.Keys)
             {
-                if (Mathf.Abs(commentTime - Time.fixedTime) < Time.fixedDeltaTime / 2)
+                //if (Mathf.Abs(commentTime - Time.fixedTime) < Time.fixedDeltaTime / 2)
+                if (Mathf.Abs(commentTime - (float)m_videoPlayer.time) < Time.fixedDeltaTime / 2)    
                 {
                     LaunchComment(m_CommentReferenceDictionary[commentTime]);
                 }

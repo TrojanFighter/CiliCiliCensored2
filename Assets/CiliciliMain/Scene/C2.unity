@@ -191,9 +191,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122d07852aea2394cb999c04333bbbbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_videoPlayer: {fileID: 1278040637}
   CommentRoot: {fileID: 1723948680}
   m_CommentUIPrefab: {fileID: 114183397428276204, guid: b1ced16ea0d096248ae1822d08984be3,
     type: 2}
+  m_CurrentLevel: 1
 --- !u!224 &383508828 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224550407656756006, guid: 7c2eb2b8c2f8d4941b63723e10c828f8,
@@ -417,6 +419,10 @@ Prefab:
     - target: {fileID: 224343813861979638, guid: 7c2eb2b8c2f8d4941b63723e10c828f8,
         type: 2}
       propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1908120937156844, guid: 7c2eb2b8c2f8d4941b63723e10c828f8, type: 2}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -688,18 +694,17 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 4521177356038608, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4311152968947602, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403948386448088, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
+    - target: {fileID: 114348400104849438, guid: d33ff0576684c774eabd4c8bec93afa8,
+        type: 2}
+      propertyPath: m_TimeLabel
+      value: 
+      objectReference: {fileID: 1911273591}
+    - target: {fileID: 328564297911061780, guid: d33ff0576684c774eabd4c8bec93afa8,
+        type: 2}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 7f7b07dcf0e8f5347933b2a3df4773cc,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d33ff0576684c774eabd4c8bec93afa8, type: 2}
   m_IsPrefabParent: 0
@@ -878,6 +883,11 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1158679707}
+--- !u!328 &1278040637 stripped
+VideoPlayer:
+  m_PrefabParentObject: {fileID: 328564297911061780, guid: d33ff0576684c774eabd4c8bec93afa8,
+    type: 2}
+  m_PrefabInternal: {fileID: 603232690}
 --- !u!1 &1388164852
 GameObject:
   m_ObjectHideFlags: 0
@@ -975,3 +985,9 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224343813861979638, guid: 7c2eb2b8c2f8d4941b63723e10c828f8,
     type: 2}
   m_PrefabInternal: {fileID: 414881091}
+--- !u!114 &1911273591 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114994492949302338, guid: 7c2eb2b8c2f8d4941b63723e10c828f8,
+    type: 2}
+  m_PrefabInternal: {fileID: 414881091}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
