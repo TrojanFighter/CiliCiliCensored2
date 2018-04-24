@@ -16,8 +16,8 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>9160</WindowHeight>
-  <WindowWidth>23234</WindowWidth>
+  <WindowHeight>5724</WindowHeight>
+  <WindowWidth>19519</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
@@ -94,10 +94,10 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Let's rock</Data></Cell>
-    <Cell><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell><Data ss:Type="Number">0.6</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -107,10 +107,10 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">good day guys</Data></Cell>
-    <Cell><Data ss:Type="Number">0.6</Data></Cell>
+    <Cell><Data ss:Type="Number">0.8</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -120,7 +120,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">What is the blocking thing?</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1.2</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
@@ -136,7 +136,7 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -149,7 +149,7 @@
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -162,7 +162,7 @@
     <Cell><Data ss:Type="Number">6</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -175,7 +175,7 @@
     <Cell><Data ss:Type="Number">7</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh just joking</Data></Cell>
@@ -188,7 +188,7 @@
     <Cell><Data ss:Type="Number">9</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -201,7 +201,7 @@
     <Cell><Data ss:Type="Number">10</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">It needs to be spread out.</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -214,7 +214,7 @@
     <Cell><Data ss:Type="Number">12</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -253,7 +253,7 @@
     <Cell><Data ss:Type="Number">15</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -279,7 +279,7 @@
     <Cell><Data ss:Type="Number">18.8</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">I am innocent!</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">I am not with that guy!</Data></Cell>
@@ -292,7 +292,7 @@
     <Cell><Data ss:Type="Number">21</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">I am innocent!</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">I am not with that guy!</Data></Cell>
@@ -305,7 +305,7 @@
     <Cell><Data ss:Type="Number">22</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -318,7 +318,7 @@
     <Cell><Data ss:Type="Number">24</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -331,7 +331,7 @@
     <Cell><Data ss:Type="Number">25</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -344,7 +344,7 @@
     <Cell><Data ss:Type="Number">26</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -357,7 +357,7 @@
     <Cell><Data ss:Type="Number">30</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -370,7 +370,7 @@
     <Cell><Data ss:Type="Number">30.4</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">I am innocent!</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">I am not with that guy!</Data></Cell>
@@ -380,7 +380,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">23</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">It's a good thing this is all fake</Data></Cell>
-    <Cell><Data ss:Type="Number">21.5</Data></Cell>
+    <Cell><Data ss:Type="Number">31.5</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
@@ -396,7 +396,7 @@
     <Cell><Data ss:Type="Number">33</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">We hate human don’t we?</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -409,7 +409,7 @@
     <Cell><Data ss:Type="Number">36</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -419,7 +419,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">26</Data></Cell>
     <Cell><Data ss:Type="String">I'm glad to see #DDE isn't afraid to tell the truth!</Data></Cell>
-    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
@@ -432,10 +432,10 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">27</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">These actors are doing such a great job</Data></Cell>
-    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">We hate human don’t we?</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -445,10 +445,10 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">28</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Sweet SFX!</Data></Cell>
-    <Cell><Data ss:Type="Number">39.5</Data></Cell>
+    <Cell><Data ss:Type="Number">38.5</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -458,10 +458,10 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">29</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">#DDE has the shows for me!</Data></Cell>
-    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -474,7 +474,7 @@
     <Cell><Data ss:Type="Number">40.299999999999997</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -487,7 +487,7 @@
     <Cell><Data ss:Type="Number">41</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Thanks for the promotion</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Hey I just try to help people</Data></Cell>
@@ -500,7 +500,7 @@
     <Cell><Data ss:Type="Number">41.2</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -513,7 +513,7 @@
     <Cell><Data ss:Type="Number">42</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -526,7 +526,7 @@
     <Cell><Data ss:Type="Number">43</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">03/12/2018</Data></Cell>
     <Cell><Data ss:Type="String">Bili</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Haha…</Data></Cell>
     <Cell ss:StyleID="s62"><Data ss:Type="String">Oh wait…</Data></Cell>
@@ -548,12 +548,12 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>8</TopRowVisible>
+   <TopRowVisible>21</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>3</ActiveRow>
-     <RangeSelection>R4C1:R37C1</RangeSelection>
+     <ActiveRow>27</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
