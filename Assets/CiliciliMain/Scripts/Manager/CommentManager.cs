@@ -117,20 +117,20 @@ namespace Overture.CommentCensor
 
         public void BlockComment(int commentID, bool block = true)
         {
-            Debug.Log("Block Comment" + commentID);
+            //Debug.Log("Block Comment" + commentID);
             if (m_CommentUIDictionary.ContainsKey(commentID))
             {
-                Debug.Log("Blocked Comment" + commentID);
+                //Debug.Log("Blocked Comment" + commentID);
                 m_CommentUIDictionary[commentID].BlockComment(block);
             }
         }
 
         public void RemoveComment(int commentID)
         {
-            Debug.Log("Remove Comment" + commentID);
+            //Debug.Log("Remove Comment" + commentID);
             if (m_CommentUIDictionary.ContainsKey(commentID))
             {
-                Debug.Log("Removed Comment" + commentID);
+                //Debug.Log("Removed Comment" + commentID);
                 m_CommentUIDictionary[commentID].SelfDestory();
                 m_CommentUIDictionary.Remove(commentID);
             }

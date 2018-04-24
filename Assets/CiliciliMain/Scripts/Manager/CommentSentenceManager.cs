@@ -14,6 +14,7 @@ namespace Overture.CommentCensor
         public Camera sceneCamera;
         public Collider draggingCollider;
         public bool isDragging = false;
+        public Transform m_CommentRoot;
 
         public void LaunchComment(Comment comment)
         {
@@ -35,7 +36,9 @@ namespace Overture.CommentCensor
 
         public void SpawnSentence(Comment word, int offset)
         {
+            m_CommentRoot.transform.SetParent(m_CommentRoot);
             CommentSentence commentSentence = GameObject.Instantiate(SentencePrefab) as CommentSentence;
+            commentSentence.transform.SetParent(m_CommentRoot);
             commentSentence.SetComment(word);
             commentSentence.transform.position = LauncherPoints[0].transform.position + Vector3.down * offset;
             commentSentence.m_Canvas.worldCamera = sceneCamera;
@@ -78,9 +81,7 @@ namespace Overture.CommentCensor
                 {
                     Debug.Log("Found" + myRayHit1.collider.gameObject.name);
                     //myRayHit.point
-                    draggingCollider.GetComponent<CommentSentenceCollider>().m_sentence.transform.position =
-                        myRayHit1.point;
-
+                    draggingCollider.GetComponent<CommentSentenceCollider>().m_sentence.transform.position =myRayHit1.point;
                 }
             }
 
