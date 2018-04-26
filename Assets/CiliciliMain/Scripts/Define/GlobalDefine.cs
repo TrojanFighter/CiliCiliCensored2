@@ -43,7 +43,8 @@ namespace Overture.CommentCensor
         Aone=0,
         Atwo=1,
         Athree,
-        Bone
+        Bone,
+        Cone
     }
 
     public static class GlobalDefine
@@ -72,7 +73,7 @@ namespace Overture.CommentCensor
 
         public static class FileName
         {
-            public static string[] Comments=new string[]{"CommentsA1","CommentsA2","CommentsA3","CommentsB1"};
+            public static string[] Comments=new string[]{"CommentsA1","CommentsA2","CommentsA3","CommentsB1","CommentsC1"};
         }
     }
 }
